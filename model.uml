@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1wvk8PUqEeSqKcY0idIaqQ" name="NewModel">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_HROZIPUrEeSqKcY0idIaqQ" name="Lifecycle">
+    <ownedOperation xmi:id="_oscd0PVOEeSqKcY0idIaqQ" name="addLifecycleListener">
+      <ownedParameter xmi:id="_rWd0EPVOEeSqKcY0idIaqQ" name="listener" type="_2_tIEPVOEeSqKcY0idIaqQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Dx5oMPVPEeSqKcY0idIaqQ" name="findLifecycleListeners"/>
+    <ownedOperation xmi:id="_Lux_MPVPEeSqKcY0idIaqQ" name="removeLifecycleListener">
+      <ownedParameter xmi:id="_M37YkPVPEeSqKcY0idIaqQ" name="listener" type="_2_tIEPVOEeSqKcY0idIaqQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_SQTLcPVPEeSqKcY0idIaqQ" name="init"/>
+    <ownedOperation xmi:id="_UrYGwPVPEeSqKcY0idIaqQ" name="start"/>
+    <ownedOperation xmi:id="_WnTn8PVPEeSqKcY0idIaqQ" name="stop"/>
+    <ownedOperation xmi:id="_ZPJM4PVPEeSqKcY0idIaqQ" name="destroy"/>
+    <ownedOperation xmi:id="_at-iYPVPEeSqKcY0idIaqQ" name="getState"/>
+    <ownedOperation xmi:id="_b9nlUPVPEeSqKcY0idIaqQ" name="getStateName"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_XWIKsPUsEeSqKcY0idIaqQ" name="Scenario_0">
+    <ownedAttribute xmi:id="_mV2SUPUsEeSqKcY0idIaqQ" name="Class1" type="_mVY_UPUsEeSqKcY0idIaqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mVY_UPUsEeSqKcY0idIaqQ" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t6AAQPUsEeSqKcY0idIaqQ" name="Catalina"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GXqB8PUtEeSqKcY0idIaqQ" name="Bootstrap"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_b6SAcPUuEeSqKcY0idIaqQ" name="StandardServer">
+    <generalization xmi:id="_DJLtQPVNEeSqKcY0idIaqQ" general="_upFB4PUuEeSqKcY0idIaqQ"/>
+    <interfaceRealization xmi:id="_A09n4PVNEeSqKcY0idIaqQ" client="_b6SAcPUuEeSqKcY0idIaqQ" supplier="_3g_dwPUuEeSqKcY0idIaqQ" contract="_3g_dwPUuEeSqKcY0idIaqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_upFB4PUuEeSqKcY0idIaqQ" name="LifecycleMBeanBase" isAbstract="true">
+    <generalization xmi:id="_QoPTYPVNEeSqKcY0idIaqQ"/>
+    <generalization xmi:id="_Sd3i0PVOEeSqKcY0idIaqQ" general="_Pz3asPVOEeSqKcY0idIaqQ"/>
+    <interfaceRealization xmi:id="_VrfK0PVNEeSqKcY0idIaqQ" client="_upFB4PUuEeSqKcY0idIaqQ" supplier="_PjhpsPUvEeSqKcY0idIaqQ" contract="_PjhpsPUvEeSqKcY0idIaqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_3g_dwPUuEeSqKcY0idIaqQ" name="Server">
+    <generalization xmi:id="_gUgigPVOEeSqKcY0idIaqQ" general="_HROZIPUrEeSqKcY0idIaqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_PjhpsPUvEeSqKcY0idIaqQ" name="JmxEnabled">
+    <generalization xmi:id="_bfUxsPVNEeSqKcY0idIaqQ" general="_VIFecPUvEeSqKcY0idIaqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_VIFecPUvEeSqKcY0idIaqQ" name="MBeanRegistration"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Pz3asPVOEeSqKcY0idIaqQ" name="LifecycleBase" isAbstract="true">
+    <interfaceRealization xmi:id="_YastoPVOEeSqKcY0idIaqQ" client="_Pz3asPVOEeSqKcY0idIaqQ" supplier="_HROZIPUrEeSqKcY0idIaqQ" contract="_HROZIPUrEeSqKcY0idIaqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_2_tIEPVOEeSqKcY0idIaqQ" name="LifecycleListener"/>
+</uml:Model>
