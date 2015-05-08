@@ -35,6 +35,9 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_PjhpsPUvEeSqKcY0idIaqQ" name="JmxEnabled">
     <generalization xmi:id="_bfUxsPVNEeSqKcY0idIaqQ" general="_VIFecPUvEeSqKcY0idIaqQ"/>
+    <ownedOperation xmi:id="_HRQjoPVSEeSqKcY0idIaqQ" name="getDomain"/>
+    <ownedOperation xmi:id="_JPkDYPVSEeSqKcY0idIaqQ" name="setDomain"/>
+    <ownedOperation xmi:id="_ZcV0APVSEeSqKcY0idIaqQ" name="getObjectName"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_VIFecPUvEeSqKcY0idIaqQ" name="MBeanRegistration"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Pz3asPVOEeSqKcY0idIaqQ" name="LifecycleBase" isAbstract="true">
