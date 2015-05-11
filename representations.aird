@@ -790,9 +790,6 @@
                   <children xmi:type="notation:Node" xmi:id="_XkdhoPUsEeSqKcY0idIaqQ" type="3010" element="_XjppUPUsEeSqKcY0idIaqQ">
                     <layoutConstraint xmi:type="notation:Location" xmi:id="_XkdhofUsEeSqKcY0idIaqQ"/>
                   </children>
-                  <children xmi:type="notation:Node" xmi:id="_q-UAUPUuEeSqKcY0idIaqQ" type="3010" element="_q-MEgPUuEeSqKcY0idIaqQ">
-                    <layoutConstraint xmi:type="notation:Location" xmi:id="_q-UAUfUuEeSqKcY0idIaqQ"/>
-                  </children>
                   <styles xmi:type="notation:SortingStyle" xmi:id="_2BGVIfUqEeSqKcY0idIaqQ"/>
                   <styles xmi:type="notation:FilteringStyle" xmi:id="_2BGVIvUqEeSqKcY0idIaqQ"/>
                 </children>
@@ -1057,7 +1054,7 @@
             <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_1-25v_UqEeSqKcY0idIaqQ" red="238" green="249" blue="244"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']"/>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CuKdoPUrEeSqKcY0idIaqQ" target="_CMXYIPUrEeSqKcY0idIaqQ" name="NewModel Class Diagram" semanticElements="_CMXYIPUrEeSqKcY0idIaqQ" tooltipText="Double click to open the current diagram">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CuKdoPUrEeSqKcY0idIaqQ" target="_CMXYIPUrEeSqKcY0idIaqQ" name="Liftcycle Class Diagram" semanticElements="_CMXYIPUrEeSqKcY0idIaqQ" tooltipText="Double click to open the current diagram">
             <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_CuLrwPUrEeSqKcY0idIaqQ" labelSize="10" labelAlignment="LEFT">
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_CuLrwfUrEeSqKcY0idIaqQ"/>
               <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']/@subNodeMappings[name='DA_Representation']/@style"/>
@@ -1072,15 +1069,6 @@
               <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']/@subNodeMappings[name='DA_Representation']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_XjppU_UsEeSqKcY0idIaqQ"/>
               <color xmi:type="viewpoint:RGBValues" xmi:id="_XjppVPUsEeSqKcY0idIaqQ"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']/@subNodeMappings[name='DA_Representation']"/>
-          </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_q-MEgPUuEeSqKcY0idIaqQ" name="NewModel Class Diagram" tooltipText="Double click to open the current diagram">
-            <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_q-MrkPUuEeSqKcY0idIaqQ" labelSize="10" labelAlignment="LEFT">
-              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_q-MrkfUuEeSqKcY0idIaqQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']/@subNodeMappings[name='DA_Representation']/@style"/>
-              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_q-MrkvUuEeSqKcY0idIaqQ"/>
-              <color xmi:type="viewpoint:RGBValues" xmi:id="_q-Mrk_UuEeSqKcY0idIaqQ"/>
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']/@subNodeMappings[name='DA_Representation']"/>
           </ownedElements>

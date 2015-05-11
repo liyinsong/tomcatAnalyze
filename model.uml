@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1wvk8PUqEeSqKcY0idIaqQ" name="NewModel">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1wvk8PUqEeSqKcY0idIaqQ" name="TomcatModel">
   <packagedElement xmi:type="uml:Interface" xmi:id="_HROZIPUrEeSqKcY0idIaqQ" name="Lifecycle">
     <ownedOperation xmi:id="_oscd0PVOEeSqKcY0idIaqQ" name="addLifecycleListener">
       <ownedParameter xmi:id="_rWd0EPVOEeSqKcY0idIaqQ" name="listener" type="_2_tIEPVOEeSqKcY0idIaqQ"/>
